@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agregar"
+    android:orientation="vertical">
+
+
+
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"/>
+    <EditText
+        android:id="@+id/txtCódigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código"/>
+    <EditText
+        android:id="@+id/txtMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Materia"
+        />
+
+    <EditText
+        android:id="@+id/txtp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Parcial 1"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/txtp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Parcial 2"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/txtp3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Parcial 3"
+        android:inputType="number|numberDecimal" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="OnClickGuardar"
+        android:text="Guardar" />
+
+</LinearLayout>
